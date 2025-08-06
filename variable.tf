@@ -15,12 +15,12 @@ variable "private_subnet_db" {
 }
 
 variable "availability_zone" {
-  default = "ap-south-1a"
+  default = "ap-southeast-1"
 }
 
 variable "ami_id" {
   description = "Amazon Linux 2 AMI"
-  default     = "ami-0f58b397bc5c1f2e8" # Use latest Amazon Linux 2 AMI for your region
+  default     = "ami-0d8ec96c89ad62005" # Use latest Amazon Linux 2 AMI for your region
 }
 
 variable "instance_type" {
@@ -29,5 +29,5 @@ variable "instance_type" {
 
 variable "key_name" {
   description = "Your EC2 Key Pair name"
-  default     = "3-tier-key" # Replace with your actual key name
+  default     = "abhi_keyyyy" # Replace with your actual key name
 }
